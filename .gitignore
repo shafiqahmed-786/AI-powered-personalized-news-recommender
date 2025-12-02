@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# Ignore artifacts if too large:
+artifacts/*.npy
+artifacts/*.idx
+
+# VS Code
+.vscode/
